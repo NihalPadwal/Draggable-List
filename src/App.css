@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  /* height: 100%;  */
+  /* padding-top: 40px; */
+  background-color:rgb(221 224 246);
+  /* border:5px solid black;
+*/
+}
+
+.task-header {
+  background-color:#d3d7f6;
+  color: #222222;
+   margin-bottom: 3px;
+  padding: 2px;
+  cursor: move;
+  border: 2px solid black;
+  border-radius: 5%;
+  text-align: center;
+  font-family:cursive;
+ 
+  font-size: 15px;
+  width: 100%;
+  display: flex;
+  align-content: center;
+}
+.header{
+  height: 10vh;
+  padding-top: 8px;
+  width: 100%;
+  background-color: rgb(0 13 106);
+  color: #dde0f6;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 35px;
+  border: 3px solid black;
+  
+  
+  
+}
+.main-task{  
+ width: 11cm;
+  border: 6px solid black;
+ border-bottom-left-radius: 5%;
+ border-bottom-right-radius: 5% ;
+  background-color: lightgrey;
+    padding-bottom: 32px;
+
+}
+.main-content{
+  width:100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6vh;
+  margin-top: 6vh;
+}
+
+.numberCircle {
+  margin-right: 12px;
+  width: 32px;
+  line-height: 24px;
+  border-radius: 30%;
+    font-size: 19px;
+  font-weight: bold;
+  border: 2px solid rgb(3, 3, 3);
+  display: flex;
+  text-align: center;
+  padding-inline-start: 8px;
+  background-color: rgb(129 117 250);
+}
+.heading2{
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 28px;
+  color: #e7e7ea;
+  border-bottom:4px solid black;
+ 
+  border-bottom-left-radius:20% ;
+  border-bottom-right-radius:20% ;
+  background-color:rgb(43 0 158);
+
+}
+.content-box{
+  
+   border:5px solid black;
+   padding:20px 20px 20px 20px;
+   margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 23px;
+  background-color: #807d7f;
+  border-radius: 5%;
+}
